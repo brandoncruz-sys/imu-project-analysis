@@ -1,0 +1,26 @@
+# --- Python (Archivos temporales) ---
+**/__pycache__
+*.pyc
+*.pyo
+*.pyd
+
+# --- Entornos Virtuales (¡Muy importante!) ---
+venv/
+env/
+.venv/
+.env
+
+# --- Datos del Proyecto (Evitar subir las 80+ pruebas) ---
+*.csv
+*.txt
+*.log
+data/
+logs/
+
+# --- Gráficas generadas automáticamente ---
+*.png
+*.jpg
+*.svg
+
+# --- VS Code ---
+.vscode/
